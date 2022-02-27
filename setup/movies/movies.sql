@@ -18,7 +18,7 @@ CREATE TABLE moviestar (
     name character (30) NOT NULL,
     address character varying(255),
     gender character (1),
-    birthdate timestamp without time zone
+    birthdate timestamp(3)
 );
 
 CREATE TABLE starsin (

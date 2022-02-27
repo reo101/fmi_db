@@ -1,6 +1,6 @@
 CREATE TABLE battles (
     name character varying(20) NOT NULL,
-    date timestamp without time zone NOT NULL
+    date timestamp(3) NOT NULL
 );
 
 CREATE TABLE classes (
