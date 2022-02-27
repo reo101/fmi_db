@@ -1,5 +1,5 @@
 SELECT
-    address
+    studio.address
 FROM
     studio
 WHERE

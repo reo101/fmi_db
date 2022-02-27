@@ -1,5 +1,5 @@
 SELECT
-    birthdate
+    moviestar.birthdate
 FROM
     moviestar
 WHERE
