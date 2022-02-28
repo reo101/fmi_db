@@ -76,7 +76,8 @@ VALUES
     ('Empire Strikes Back', 1980,  'Harrison Ford'),
     ('The Usual Suspects',  1995, 'Jack Nicholson'),
     ('Terms of Endearment', 1983,     'Jane Fonda'),
-    ('Terms of Endearment', 1983, 'Jack Nicholson');
+    ('Terms of Endearment', 1983, 'Jack Nicholson'),
+    ('The Usual Suspects',  1995, 'Sandra Bullock');
 
 INSERT INTO
     studio (name, address, presc)
