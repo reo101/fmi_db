@@ -1,12 +1,8 @@
 SELECT
-    movie.title
+    m1.title
 FROM
-    movie
+    movie AS m1,
+    movie AS m2
 WHERE
-    movie.length > (
-        SELECT
-            movie.length
-        FROM
-            movie
-        WHERE
-            movie.title = 'Star Wars');
+    m1.length > m2.length
+    AND m2.title = 'Star Wars';
